@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 import { motion } from 'framer-motion';
 import { Sparkles, CheckCircle2, User } from 'lucide-react';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://digital-inaugral-adssc.onrender.com');
 
 function App() {
   const [statuses, setStatuses] = useState(Array(5).fill('ready')); // ready, sending, sent

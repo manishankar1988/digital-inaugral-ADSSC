@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { io } from 'socket.io-client';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://digital-inaugral-adssc.onrender.com');
 
 // Wick definitions relative to the lamp container
 const WICK_CONFIG = [
